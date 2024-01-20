@@ -18,7 +18,7 @@ fs.readdir('./', (err, files) => {
     } else {
         console.log(files);
         for (let f of files) console.log(f);
-        
+        return files;
     }
 })
 
